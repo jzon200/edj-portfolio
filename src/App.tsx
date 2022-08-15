@@ -4,7 +4,7 @@ import { AboutMe, FeaturedProjects, Header, Introduction } from "./components";
 function App() {
   return (
     <Fragment>
-      <div className="w-[75%] mx-auto font-poppins">
+      <div className="w-[85vw] mx-auto font-poppins md:w-[75vw]">
         <Header />
         <main>
           <Introduction />

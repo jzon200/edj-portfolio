@@ -13,10 +13,30 @@ export default function FeaturedProjects() {
       </div>
 
       <div className="grid gap-8 md:gap-5 md:grid-cols-2 lg:gap-10">
-        <ProjectContainer vidSrc="../../assets/puzzle-demo.mp4" vidLink="#" projectName="Puzzle Game" projectDetails="React, Typescript, TailwindCSS"/>
-        <ProjectContainer vidSrc="../../assets/sample.mp4" vidLink="#" projectName="Puzzle Game" projectDetails="React, Typescript, TailwindCSS"/>
-        <ProjectContainer vidSrc="../../assets/sample.mp4" vidLink="#" projectName="Puzzle Game" projectDetails="React, Typescript, TailwindCSS"/>
-        <ProjectContainer vidSrc="../../assets/sample.mp4" vidLink="#" projectName="Puzzle Game" projectDetails="React, Typescript, TailwindCSS"/>
+        <ProjectContainer
+          vidSrc="../../assets/puzzle-demo.mp4"
+          vidLink="#"
+          projectName="Puzzle Game"
+          projectDetails="React, Typescript, TailwindCSS"
+        />
+        <ProjectContainer
+          vidSrc="../../assets/netflix-clone-demo.mp4"
+          vidLink="#"
+          projectName="Netflix Clone"
+          projectDetails="Next.js, Firebase, Typescript, TailwindCSS"
+        />
+        <ProjectContainer
+          vidSrc="../../assets/zyamura-inventory-demo.mp4"
+          vidLink="#"
+          projectName="Zyamura Inventory Management System"
+          projectDetails="Next.js, Firebase, Typescript, TailwindCSS"
+        />
+        <ProjectContainer
+          vidSrc="../../assets/grandeur-shop-demo.mp4"
+          vidLink="#"
+          projectName="Grandeur (E-commerce Website)"
+          projectDetails="XAMPP, Javascript, Bootstrap"
+        />
       </div>
     </section>
   );

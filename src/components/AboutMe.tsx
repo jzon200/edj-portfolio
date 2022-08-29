@@ -1,4 +1,4 @@
-import SkillsList from "./SkillsList";
+import Skills from "./Skills";
 
 export default function AboutMe() {
   return (
@@ -12,7 +12,14 @@ export default function AboutMe() {
           <br />
           <p>Technologies I've been using with recently:</p>
 
-          <SkillsList />
+          <ul className="pt-12 grid grid-cols-2 gap-4 lg:p-16">
+            <Skills logoSrc="public/assets/react-logo.svg" logoAlt="React Logo" skillName="React"/>
+            <Skills logoSrc="public/assets/tailwind-logo.svg" logoAlt="TailwindCSS Logo" skillName="TailwindCSS"/>
+            <Skills logoSrc="public/assets/typescript-logo.svg" logoAlt="Typescript Logo" skillName="Typescript"/>
+            <Skills logoSrc="public/assets/firebase-logo.svg" logoAlt="Firebase Logo" skillName="Firebase"/>
+            <Skills logoSrc="public/assets/mongodb-logo.svg" logoAlt="MongoDB Logo" skillName="MongoDB"/>
+            <Skills logoSrc="public/assets/nextjs-logo.svg" logoAlt="NextJS Logo" skillName="NextJS"/>
+          </ul>
         </div>
       </div>
       <div className="absolute bottom-0 rounded-tr-[72px] bg-[#1f1660] w-[100%] h-[300px] z-20">

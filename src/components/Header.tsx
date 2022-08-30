@@ -4,7 +4,7 @@ export default function Header() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <header className="w-full bg-white shadow ">
+    <header className="w-full bg-white">
       <nav className="justify-between w-full md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">

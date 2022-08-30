@@ -6,9 +6,9 @@ export default function Introduction() {
       <p className="text-lg my-6 font-poppins leading-7 xl:text-2xl xl:leading-10">
       I'm a web developer specializing in building and designing exceptional websites, and everything in between.
       </p>
-      <button className="text-lg border border-blue-500 rounded-lg px-4 py-3 font-poppins font-medium xl:text-2xl text-blue-500">
+      <a href="mailto:eddbausa@gmail.com" target="_blank" className="text-lg border border-blue-500 rounded-lg mt-3 px-4 py-3 font-poppins font-medium xl:text-xl text-blue-500 hover:text-white hover:bg-blue-500">
         Get In Touch
-      </button>
+      </a>
     </section>
   );
 }

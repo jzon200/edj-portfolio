@@ -15,19 +15,19 @@ export default function FeaturedProjects() {
       <div className="grid gap-8 md:gap-5 md:grid-cols-2 lg:gap-10">
         <ProjectContainer
           vidSrc="../../assets/puzzle-demo.mp4"
-          vidLink="#"
+          vidLink="https://react-slide-puzzle.vercel.app/"
           projectName="Puzzle Game"
           projectDetails="React, Typescript, TailwindCSS"
         />
         <ProjectContainer
           vidSrc="../../assets/netflix-clone-demo.mp4"
-          vidLink="#"
+          vidLink="https://netflix-clone-eta-fawn.vercel.app"
           projectName="Netflix Clone"
           projectDetails="Next.js, Firebase, Typescript, TailwindCSS"
         />
         <ProjectContainer
           vidSrc="../../assets/zyamura-inventory-demo.mp4"
-          vidLink="#"
+          vidLink="https://zyamura-inventory-sales.vercel.app"
           projectName="Zyamura Inventory Management System"
           projectDetails="Next.js, Firebase, Typescript, TailwindCSS"
         />
